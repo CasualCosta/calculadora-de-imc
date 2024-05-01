@@ -11,6 +11,6 @@ while True:
         break
     except ValueError:
         print("Valor inválido. Favor utilizar apenas números e, opcionalmente, um ponto.")
-imc = float(massa) / float(float(altura) ** 2)
+imc = massa / (altura ** 2)
 mensagem = "Seu índice de massa corporal é " + str(imc) + "."
 print(mensagem)
